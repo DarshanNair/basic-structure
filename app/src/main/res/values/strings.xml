@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Merchant Order</string>
+    <string name="order_id">#%d</string>
+    <string name="order_at">at</string>
+    <string name="auto_reject">Auto reject</string>
+    <string name="button_accept">Accept</string>
+    <string name="product_top_title">x%d %s</string>
+    <string name="product_description">%d %s</string>
+</resources>

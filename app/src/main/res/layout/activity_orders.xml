@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_flipper_orders"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:measureAllChildren="false">
+
+    <include
+        android:id="@+id/view_orders_loading"
+        layout="@layout/view_orders_loading" />
+
+    <include
+        android:id="@+id/view_orders_loaded"
+        layout="@layout/view_orders_loaded" />
+
+</ViewFlipper>
